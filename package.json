@@ -1,0 +1,19 @@
+{
+  "name": "module_exp",
+  "version": "1.0.0",
+  "main": "build.js",
+  "type": "module",
+  "scripts": {
+    "build":"npm unbuild"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  }
+}
